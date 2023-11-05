@@ -1,4 +1,5 @@
 {"compilerOptions": {
+  "jsx": "react",
   // ...rest of the template
   "types": ["node"],
   "paths": {
