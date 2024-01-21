@@ -1,21 +1,42 @@
 // TODO styles according to design
 
 .primary {
-    background-color: red;
-  }
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px 28px;
+
+  background: var(--color-accent-500);
+  border-radius: 4px;
+  box-shadow: var(--color-accent-100);
+} 
+    
    
-  .secondary {
-    background-color: green;
-  }
+.secondary {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  align-self: stretch;
+  justify-content: center;
+
+  height: 36px;
+  padding: 6px 28px;
+
+  background: var(--color-dark-300);
+  border-radius: 4px;
+  box-shadow: var(--color-dark-100);
+}
    
-  .tertiary {
-    background-color: blue;
-  }
+.tertiary {
+  background-color: blue;
+}
    
-  .link {
-    background-color: yellow;
-  }
+.link {
+  background-color: yellow;
+}
    
-  .fullWidth {
-    width: 100%;
-  }
+.fullWidth {
+  width: 100%;
+}
