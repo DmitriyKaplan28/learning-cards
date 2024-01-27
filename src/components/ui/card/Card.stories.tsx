@@ -18,8 +18,7 @@ const contentStyles: CSSProperties = { textAlign: 'center', fontSize: '24px' }
 
 export const Default: Story = {
     args: {
-        //TODO fix the mistake
-        //children: <Typography>Card</Typography>,
+        children: <Typography>Card</Typography>,
         style: {
             width: '300px',
             height: '300px',
