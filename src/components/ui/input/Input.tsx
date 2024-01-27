@@ -12,7 +12,7 @@ import cn from 'classnames'
 import s from './Input.module.scss'
 
 import { ClosedEyeIcon, OpenEyeIcon } from '@/assets'
-import { TypographyVariant } from '@/common/enums'
+import { TypographyVariant } from '@/common'
 import { Typography } from '@/components'
 
 export type InputProps = {

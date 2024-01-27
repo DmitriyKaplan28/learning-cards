@@ -1,4 +1,4 @@
-import { ComponentPropsWithoutRef, ElementRef, forwardRef } from 'react'
+import { ComponentPropsWithoutRef, forwardRef } from 'react'
 import s from './Card.module.scss'
 import cn from 'classnames'
 

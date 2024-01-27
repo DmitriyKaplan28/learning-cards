@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Typography } from '.'
-import { TypographyVariant } from '@/common/enums'
+import { TypographyVariant } from '@/common'
 
 
 

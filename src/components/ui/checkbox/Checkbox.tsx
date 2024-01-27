@@ -6,8 +6,8 @@ import cn from 'classnames'
 import s from './Checkbox.module.scss'
 
 import { CheckIcon } from '@/assets'
-import { TypographyVariant } from '@/common/enums'
-import { Typography } from '@/components/ui/typography'
+import { TypographyVariant } from '@/common'
+import { Typography } from '@/components'
 
 type PositionType = 'default' | 'left'
 

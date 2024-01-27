@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef, ElementType, ReactNode } from 'react'
 import s from './Button.module.scss'
-import { ButtonVariant } from '@/common/enums'
+import { ButtonVariant } from '@/common'
 
 export type ButtonProps<T extends ElementType = 'button'> = {
   as?: T

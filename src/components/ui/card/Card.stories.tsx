@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 import { Card } from '.'
 import { CSSProperties } from 'react'
-import { Typography } from '@/components/ui/typography'
+import { Typography } from '@/components'
 
 const meta = {
     title: 'Components/Card',

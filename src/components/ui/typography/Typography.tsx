@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef, ElementType, ReactNode } from 'react'
 import s from './Typography.module.scss'
 import cn from 'classnames'
-import { TypographyVariant } from '@/common/enums'
+import { TypographyVariant } from '@/common'
 
 export type TypographyProps<T extends ElementType = 'p'> = {
   as?: T
