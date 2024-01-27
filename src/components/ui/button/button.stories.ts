@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
 import { Button } from '.'
+import { ButtonVariant } from '@/common/enums'
 
 const meta = {
     title: 'Components/Button',
@@ -8,7 +9,7 @@ const meta = {
     tags: ['autodocs'],
     argTypes: {
         variant: {
-            options: ['primary', 'secondary'],
+            options: Object.values(ButtonVariant),
             control: { type: 'radio' },
         },
     },
@@ -19,7 +20,7 @@ type Story = StoryObj<typeof meta>
 
 export const Primary: Story = {
     args: {
-        variant: 'primary',
+        variant: ButtonVariant.primary,
         children: 'Primary Button',
         disabled: false,
     },
