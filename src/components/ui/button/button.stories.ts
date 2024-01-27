@@ -8,7 +8,7 @@ const meta = {
     tags: ['autodocs'],
     argTypes: {
         variant: {
-            options: ['primary', 'secondary', 'tertiary', 'link'],
+            options: ['primary', 'secondary'],
             control: { type: 'radio' },
         },
     },
@@ -29,20 +29,6 @@ export const Secondary: Story = {
     args: {
         variant: 'secondary',
         children: 'Secondary Button',
-        disabled: false,
-    },
-}
-export const Tertiary: Story = {
-    args: {
-        variant: 'tertiary',
-        children: 'Tertiary Button',
-        disabled: false,
-    },
-}
-export const Link: Story = {
-    args: {
-        variant: 'link',
-        children: 'Tertiary Button',
         disabled: false,
     },
 }
