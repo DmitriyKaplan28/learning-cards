@@ -12,6 +12,23 @@
   border-radius: 4px;
   box-shadow: var(--color-accent-100);
 } 
+
+.primary:hover {
+  background: var(--color-accent-300);
+} 
+
+.primary:active {
+  background: var(--color-accent-700);
+} 
+
+.primary:focus {
+  border: 2px solid var(--color-info-700);
+} 
+
+.primary:disabled {
+  background: var(--color-accent-900);
+} 
+    
     
    
 .secondary {
@@ -27,14 +44,6 @@
   background: var(--color-dark-300);
   border-radius: 4px;
   box-shadow: var(--color-dark-100);
-}
-   
-.tertiary {
-  background-color: blue;
-}
-   
-.link {
-  background-color: yellow;
 }
    
 .fullWidth {
