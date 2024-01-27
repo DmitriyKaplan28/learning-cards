@@ -5,7 +5,8 @@ import { TypographyVariant } from '@/common/enums'
 
 export type TypographyProps<T extends ElementType = 'p'> = {
   as?: T
-  variant?: TypographyVariant
+  variant?: TypographyVariant,
+  children?: ReactNode,
 } & ComponentPropsWithoutRef<T>
 
 export const Typography = <T extends ElementType = 'p'>({
