@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { Button } from './'
+import { Button } from '.'
 
 const meta = {
     title: 'Components/Button',
@@ -25,27 +25,27 @@ export const Primary: Story = {
     },
 }
 
-export const Secondary: Story = {
-    args: {
-        variant: 'secondary',
-        children: 'Secondary Button',
-        disabled: false,
-    },
-}
+// export const Secondary: Story = {
+//     args: {
+//         variant: 'secondary',
+//         children: 'Secondary Button',
+//         disabled: false,
+//     },
+// }
 
-export const FullWidth: Story = {
-    args: {
-        variant: 'primary',
-        children: 'Full Width Button',
-        disabled: false,
-        fullWidth: true,
-    },
-}
+// export const FullWidth: Story = {
+//     args: {
+//         variant: 'primary',
+//         children: 'Full Width Button',
+//         disabled: false,
+//         fullWidth: true,
+//     },
+// }
 
-export const AsLink: Story = {
-    args: {
-      variant: 'primary',
-      children: 'Link that looks like a button',
-      as: 'a',
-    },
-  }
+// export const AsLink: Story = {
+//     args: {
+//       variant: 'primary',
+//       children: 'Link that looks like a button',
+//       as: 'a',
+//     },
+//   }
